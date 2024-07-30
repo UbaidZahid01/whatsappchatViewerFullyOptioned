@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input[type="file"],
+form input[type="text"],
+form select,
+form button {
+    flex: 1;
+    margin: 0 5px;
+}
+
+form button {
+    flex: 0.2;
+}
+
+.chat-container {
+    max-height: 600px;
+    overflow-y: auto;
+    background-color: #e5ddd5;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 70%;
+}
+
+.primary-person {
+    background-color: #dcf8c6;
+    color: black; /* Change font color to black */
+    margin-left: auto;
+}
+
+.primary-person .timestamp {
+    color: rgba(0, 0, 0, 0.6); /* Change timestamp color to black */
+    
+}
+
+.chat-message .timestamp {
+    display: block;
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+}
+
+.timestamp{
+    margin-bottom:3px !important;
+}
